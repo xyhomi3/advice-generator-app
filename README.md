@@ -25,7 +25,7 @@ Users should be able to:
 
 - [Solution URL](https://www.frontendmentor.io/solutions/results-summary-component-solution-wbunvitereacttypescriptcss-KotlQyYj6n)
 
-- [Live Site URL](https://xyhomi3.github.io/results-summary-component/)
+- [Live Site URL](https://xyhomi3.github.io/advice-generator-app/)
 
 ### Built with
 
