@@ -1,4 +1,5 @@
-import { useRef, useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useRef, useState } from "react";
 
 import AdviceDisplay from "../Display/AdviceDisplay";
 import DesktopDivider from "../../assets/images/pattern-divider-desktop.svg";
@@ -26,6 +27,11 @@ export default function AdviceCard() {
       setCurrentAdvice("An error occurred. Please try again later.");
     }
   };
+
+  // Call generateAdvice when the component initially loads
+  useEffect(() => {
+    generateAdvice();
+  }, []);
 
   return (
     <>
