@@ -36,7 +36,7 @@ Users should be able to:
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/interactive-card-details-form.git`
+1. Clone the repository: `git clone https://github.com/xyhomi3/advice-generator-app.git`
 2. Install dependencies: `bun install`
 3. Start the development server: `bun run dev`
 4. Open your web browser and visit `http://localhost:5173` to view the application.
