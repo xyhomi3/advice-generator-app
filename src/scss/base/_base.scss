@@ -1,0 +1,49 @@
+//Primary
+$LightCyan: hsl(193, 38%, 86%);
+$NeonGreen: hsl(150, 100%, 66%);
+//Neutral
+$GrayishBlue: hsl(217, 19%, 38%);
+$DarkGrayishBlue: hsl(217, 19%, 24%);
+$DarkBlue: hsl(218, 23%, 16%);
+//Custom
+$XYWhite: #fffcf7;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: $DarkBlue;
+    background-color: $XYWhite;
+    p{
+      color: $LightCyan;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: $LightCyan;;
+    background-color: $DarkBlue;
+  }
+}
