@@ -6,6 +6,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
+  - [Screenshots](screenshots)
   - [Links](#links)
 - [Built With](#built-with)
 - [How to Use](#how-to-use)
@@ -20,6 +21,12 @@ Users should be able to:
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
+
+### Screenshots
+<div>
+  <img src="src/assets/images/iPhone X-1698396642125.jpeg" loadind="lazy" alt="screenshot" style="width:375px"/>
+  <img src="src/assets/images/MacBook Pro-1698396773792.jpeg" loadind="lazy" alt="screenshot"/>
+</div>
 
 ### Links
 
