@@ -6,7 +6,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshots](screenshots)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [Built With](#built-with)
 - [How to Use](#how-to-use)
